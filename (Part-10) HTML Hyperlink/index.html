@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>HTML Text Formatting</title>
+</head>
+
+<body>
+    
+<!--
+    HTML Links - Hyperlinks:
+       HTML links are hyperlinks.
+
+       We can click on a link and jump to another document.
+
+       When we move the mouse over a link, the mouse arrow will turn into a little hand.
+
+       Note: A link does not have to be text. It can be an image or any other HTML element!
+-->
+
+                                                
+<!--
+    Use the <a> element to define a link
+    Use the href attribute to define the link address
+    Use the target attribute to define where to open the linked document
+    Use the <img> element (inside <a>) to use an image as a link
+-->
+                        
+<!--
+    The HTML <a> tag defines a hyperlink. It has the following syntax:
+         <a href="url">link text</a>
+         
+    The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+
+    The link text is the part that will be visible to the reader.
+
+    Clicking on the link text, will send the reader to the specified URL address.     
+-->
+<a href="https://www.youtube.com/">Visit YouTube</a>
+
+<!--
+    By default, links will appear as follows in all browsers:
+        -> An unvisited link is underlined and blue
+        -> A visited link is underlined and purple
+        -> An active link is underlined and red
+-->
+
+
+<!--
+    Link to Relative URLs:
+       A local link (a link to a page within the same website) is specified with a relative URL (without the "https://www" part):
+-->
+<a href="about,html">Go to About Page</a>
+
+
+<!--
+    The target attribute specifies where to open the linked document.
+    
+    The target attribute can have one of the following values:
+       ->   _self - Default. Opens the document in the same window/tab as it      was clicked
+         
+       ->  _blank - Opens the document in a new window or tab
+          
+       ->   _parent - Opens the document in the parent frame
+          
+       ->   _top - Opens the document in the full body of the window
+-->
+
+</body>
+
+</html>

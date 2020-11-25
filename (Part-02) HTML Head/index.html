@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- 
+    The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
+    
+    Metadata is data about the HTML document. Metadata is not displayed.
+    
+    Metadata typically define the document title, character set, styles, scripts, and other meta information.
+    
+    The following elements can go inside the <head> element:
+        1. <title> (required in every HTML document) tag  
+        2. <style> tag  
+        3. <base> tag  
+        4. <link> tag 
+        5. <meta> tag 
+        6. <script> tag
+        7. <noscript> tag
+-->
+<head>
+   
+    <!--
+       The charset attribute specifies the character encoding for the HTML document.
+       
+       <meta charset="UTF-8"> Specifies the character encoding for Unicode for the HTML document.
+    -->
+    <meta charset="UTF-8">
+    
+    <!--
+        X-UA-Compatible is a document mode meta tag that allows web authors to choose what version of Internet Explorer the page should be rendered as. It is used by Internet Explorer 8 to specify whether a page should be rendered as IE 7 (compatibility view) or IE 8 (standards view).
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!--
+        The viewport is the user's visible area of a web page. It varies with the device - it will be smaller on a mobile phone than on a computer screen.
+        
+        The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <title>Basic Tag</title>
+    
+    <!--
+        The <link> tag defines the relationship between the current document and an external resource.
+        The <link> tag is most often used to link to external style sheets.
+        The <link> element is an empty element, it contains attributes only.
+        
+        href="URL"(Specifies the location of the linked document)
+        rel=""(Required. Specifies the relationship between the current document and the linked document)
+    -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!--
+        The <script> tag is used to embed a client-side script (JavaScript).
+        
+        The <script> element either contains scripting statements, or it points to an external script file through the src attribute.
+        
+        Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.
+        
+        src="URL"(Specifies the URL of an external script file)
+    -->
+    <script src="jquery.js"></script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

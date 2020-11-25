@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>HTML class</title>
+</head>
+
+<body>
+
+  <!--
+      HTML The class Attribute:
+         The HTML class attribute is used to define equal styles for elements with the same class name.
+     
+      Using The class Attribute:
+         All HTML elements with the same class attribute will get the same style.
+         
+           Here we have three <div> elements that point to the same class name:
+            <!--=============== Example ===================
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                        <style>
+                            .cities {
+                              background-color: black;
+                              color: white;
+                              margin: 20px;
+                              padding: 20px;
+                            }
+                        </style>
+                    </head>
+                    <body>
+
+                        <div class="cities">
+                          <h2>London</h2>
+                          <p>London is the capital of England.</p>
+                        </div>
+
+                        <div class="cities">
+                          <h2>Paris</h2>
+                          <p>Paris is the capital of France.</p>
+                        </div>
+
+                        <div class="cities">
+                          <h2>Tokyo</h2>
+                          <p>Tokyo is the capital of Japan.</p>
+                        </div>
+
+                    </body>
+                    </html>              
+          ===============================================================
+         
+  -->
+  
+  
+  <!--
+       Using The class Attribute on Inline Elements
+           The HTML class attribute can also be used on inline elements:
+              ===================Example============================
+                            <!DOCTYPE html>
+                            <html>
+                            <head>
+                                <style>
+                                    span.note {
+                                      font-size: 120%;
+                                      color: red;
+                                    }
+                                </style>
+                            </head>
+                            <body>
+
+                                <h1>My <span class="note">Important</span> Heading</h1>
+                                <p>This is some <span class="note">important</span> text.</p>
+
+                            </body>
+                            </html>
+  
+           ===========================================================================
+  
+      Tip: The class attribute can be used on any HTML element.
+
+      Note: The class name is case sensitive!
+  
+  -->
+  
+  
+  <!--
+       Multiple Classes
+          HTML elements can have more than one class name, each class name must be separated by a space.
+          
+          ============================== Example ===============================
+                                <!DOCTYPE html>
+                                <html>
+                                    <style>
+                                        .city {
+                                          background-color: tomato;
+                                          color: white;
+                                          padding: 10px;
+                                        } 
+
+                                        .main {
+                                          text-align: center;
+                                        }
+                                    </style>
+                                <body>
+
+                                    <h2>Multiple Classes</h2>
+                                    <p>All three headers have the class name "city". In addition, London also have the class name "main", which center-aligns the text.</p>
+
+                                    <h2 class="city main">London</h2>
+                                    <h2 class="city">Paris</h2>
+                                    <h2 class="city">Tokyo</h2>
+
+                                </body>
+                                </html>
+  
+          ===================================================================================
+          In the example above, the first <h2> element belongs to both the "city" class and the "main" class.
+  -->
+  
+
+
+</body>
+
+</html>
